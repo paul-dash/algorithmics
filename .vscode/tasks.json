@@ -8,7 +8,7 @@
       "args": [
         "-l",
         "-c",
-        "export PATH=/mingw64/bin:$PATH && cd /c/Users/Public/Desktop/algorithmics && g++ -static src/test.cpp -o bin/test.exe"
+        "export PATH=/mingw64/bin:$PATH && cd /c/Users/Public/Desktop/algorithmics && g++ -static src/${fileBasenameNoExtension}.cpp -o bin/${fileBasenameNoExtension}.exe"
       ],
       "group": {
         "kind": "build",
