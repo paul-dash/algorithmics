@@ -4,11 +4,11 @@
     {
       "label": "Build current file",
       "type": "shell",
-      "command": "g++",
+      "command": "C:\\msys64\\usr\\bin\\bash.exe",
       "args": [
-        "${file}",
-        "-o",
-        "${workspaceFolder}/bin/${fileBasenameNoExtension}"
+        "-l",
+        "-c",
+        "export PATH=/mingw64/bin:$PATH && cd /c/Users/Public/Desktop/algorithmics && g++ -static src/test.cpp -o bin/test.exe"
       ],
       "group": {
         "kind": "build",
